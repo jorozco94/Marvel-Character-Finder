@@ -1,5 +1,44 @@
-/* 
-Example to see if it works
+
 html {
-  background-color: blue;
-} */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* CSS For our Search Box and Form Elements */
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+#charForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+  text-align: center;
+}
+
+#charContainer {
+  display: flex;
+  gap: 1em;
+}
+
+/* CSS For Default Watcher Card (should work for charCard too) */
+#watcherCard, .charCard {
+  display: flex;
+  flex-direction: column;
+  font-size: .7rem;
+  border: 1px solid red;
+  text-align: left;
+  width: 25em;
+  padding: .5em;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.header p, .header h2 {
+  margin: 0;
+}
